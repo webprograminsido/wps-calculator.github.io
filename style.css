@@ -1,0 +1,100 @@
+body{
+	background: radial-gradient(lightgreen, black);
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	text-transform: capitalize;
+	color: white;
+}
+
+
+form {
+
+	padding: 20px;
+	border-radius: 10px;
+	
+	box-shadow: 0px 0px 3px salmon;
+}
+
+h1{
+
+	color: #333;
+	font-family: cursive;
+}
+
+label {
+	display: block;
+
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	margin-top: 70px;
+}
+
+.kalkulator{
+	padding: 20px;
+	border-radius: 10px;
+		
+	box-shadow: 0px 0px 3px salmon;
+	margin-right: 10px;
+
+}
+
+.button{
+	width: 56px;
+	height: 46px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.result{
+	font-family: cursive;
+	color: red;
+	padding: 10px;
+}
+
+.equal, .clear, .delt {
+	transition: .20s;
+}
+
+.equal {
+	width: 140px;
+}
+
+.equal:hover{
+	background-color: blueviolet;
+}
+.clear:hover{
+	background-color: red;
+}
+.delt:hover{
+	background-color: salmon;
+}
+
+
+.follow p{
+	text-align: center;
+	margin-top: 20px;
+	letter-spacing: 5px;
+	font-size: 30px;
+}
+
+.follow a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+.list{
+	text-align: center;
+	margin-top: 40px;
+	
+
+}
+
+.list .item{
+	margin-right: 50px;
+
+}

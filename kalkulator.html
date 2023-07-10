@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kalkulator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+			<div class="container">
+
+
+				<div class="kalkulator">
+					<form name="form">
+					<input type="text" name="textView" class="textView " size="30px">
+					</form>
+					<table>
+						
+						<tr>
+							
+								<td><input type="button" name="btn" value="c" class="button clear" onclick="c()"></td>
+								<td><input type="button" name="btn" value="-" class="button" onclick="insert('-')"></td>
+								<td><input type="button" name="btn" value="x" class="button" onclick="insert('*')"></td>
+								<td><input type="button" name="btn" value="delt" class="button delt" onclick="d()"></td>
+
+						</tr>
+
+						<tr>
+							
+								<td><input type="button" name="btn" value="9"class="button" onclick="insert(9)"></td>
+								<td><input type="button" name="btn" value="8" class="button" onclick="insert(8)"></td>
+								<td><input type="button" name="btn" value="7" class="button" onclick="insert(7)"></td>
+								<td><input type="button" name="btn" value="6" class="button" onclick="insert(6)"></td>
+
+						</tr>
+
+						<tr>
+							
+								<td><input type="button" name="btn" value="5" class="button" onclick="insert(5)"></td>
+								<td><input type="button" name="btn" value="4" class="button" onclick="insert(4)"></td>
+								<td><input type="button" name="btn" value="3" class="button" onclick="insert(3)"></td>
+								<td><input type="button" name="btn" value="2" class="button" onclick="insert(2)"></td>
+
+						</tr>
+
+						<tr>
+							
+								<td><input type="button" name="btn" value="1" class="button" onclick="insert(1)"></td>
+								<td><input type="button" name="btn" value="0" class="button" onclick="insert(0)"></td>
+								
+								<td><input type="button" name="btn" value="+" class="button" onclick="insert('+')"></td>
+								<td><input type="button" name="btn" value="/" class="button" onclick="insert('/')"></td>
+
+						</tr>
+						<tr>	
+								<td colspan="2" ><input type="button" name="btn" value="=" class="button equal" onclick="e()"></td>
+								<td ><input type="button" name="btn" value="." class="button" onclick="insert('.')"></td>
+								<td  ><input type="button" name="btn" value="," class="button" onclick="insert(,)"></td>
+				
+						</tr>
+
+					</table>
+
+
+				</div>
+
+
+
+			
+			<form  method="post" action="" autocomplete="off" class="form1">
+
+				<h1>MENSAGEN </h1>
+				
+					<label for="nama">Naran</label>
+					<input type="text" name="nama" size="20px">
+
+					<label for="pesan">Mensagen</label>
+
+					<textarea  size="20px"></textarea><br>
+					<button type="submit" name="submit" class="btn1">Submete</button>
+
+			</form>
+
+			</div>
+
+
+			<dv class="follow">
+			
+			
+				<p> <a href="https://github.com/webprograminsido" class="item"> WebPrograminLoY </a></p>
+				
+  	 
+			</dv>
+			
+
+
+		
+
+	
+<script src="script.js"></script>
+  
+
+    <script>
+      feather.replace()
+    </script>
+</body>
+</html>
